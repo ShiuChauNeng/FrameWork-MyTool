@@ -15,7 +15,7 @@ namespace SuperTool
             stopwatch.Start();
             try
             {
-
+                Console.WriteLine("Hello world");
             }
             catch (Exception ex)
             {
