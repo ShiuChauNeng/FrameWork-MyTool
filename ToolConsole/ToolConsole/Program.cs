@@ -15,14 +15,14 @@ namespace ToolConsole
             stopwatch.Start();
             try
             {
-                Console.WriteLine("Hello world");
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
             }
-
-            Console.ReadLine();
+            stopwatch.Stop();
+            Console.Read();
         }
     }
 }
